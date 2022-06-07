@@ -3,7 +3,7 @@ izone_new 是一个以 Django 作为框架搭建的个人博客。
 izone_new fork 于 https://github.com/Hopetree/izone ,主要进行了一些个性化的修改， 以及增加某些功能。
 
 ## 增加功能
-- 
+- 前端整合 mathjax 数学公式
 
 ## izone 已有功能介绍
 - Django 自带的后台管理系统，方便对于文章、用户及其他动态内容的管理
