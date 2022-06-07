@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=lighthouse
+Group=www-data
+WorkingDirectory=/home/lighthouse/izone
+ExecStart=/home/lighthouse/anaconda3/envs/izone_py310/bin/gunicorn --access-logfile - --workers 2 --bind unix:/home/lighthouse/izone/izone.sock izone.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

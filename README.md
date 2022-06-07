@@ -1,8 +1,11 @@
-一个以 Django 作为框架搭建的个人博客。
+izone_new 是一个以 Django 作为框架搭建的个人博客。
 
-博客效果： https://tendcode.com/
+izone_new fork 于 https://github.com/Hopetree/izone ,主要进行了一些个性化的修改， 以及增加某些功能。
 
-## 功能介绍
+## 增加功能
+- 
+
+## izone 已有功能介绍
 - Django 自带的后台管理系统，方便对于文章、用户及其他动态内容的管理
 - 文章分类、标签、浏览量统计以及规范的 SEO 设置
 - 用户认证系统，在 Django 自带的用户系统的基础上扩展 Oauth 认证，支持微博、Github 等第三方认证
@@ -33,5 +36,7 @@
 ![iphone](https://user-images.githubusercontent.com/30201215/60588832-8e6d6780-9dca-11e9-84fa-f1d71510c81e.jpg)
 
 ## 运行指导
-- 由于本项目分为几个不同的分支，每个分支的功能是一样的，但是运行的方式不同，所以需要根据分支查看对应的运行wiki
+- 指导 wiki:https://github.com/daishoui/izone_new/wiki
+
+### izone 项目指导 wiki 可见
 - 指导 wiki：https://github.com/Hopetree/izone/wiki
