@@ -1,7 +1,7 @@
 {% load static %}
 <div class="text-center">
     <button class="btn btn-danger rounded-0" data-toggle="collapse" data-target=".multi-collapse"
-            aria-expanded="false" aria-controls="sponsor-zfb sponsor-wx"
+            aria-expanded="true" aria-controls="sponsor-zfb sponsor-wx"
             style="line-height: 1;font-size: .8rem;">
         <i class="fa fa-cny"></i>
         如果文章对你有所帮助，可以赞助本站
@@ -17,6 +17,30 @@
     </div>
     <div class="col text-center">
         <div class="collapse multi-collapse" id="sponsor-zfb">
+            <div class="p-1 text-primary">支付宝</div>
+            <img class="w-75" src="{% static 'blog/img/reward_zfb.png' %}">
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <button class="btn btn-danger rounded-0 collapsed" data-toggle="collapse" data-target=".multi-collapse" 
+            aria-expanded="false" aria-controls="sponsor-zfb sponsor-wx" 
+            style="line-height: 1;font-size: .8rem;">
+        <i class="fa fa-cny"></i>
+        如果文章对你有所帮助，可以赞助本站
+        <i class="fa fa-chevron-down"></i>
+    </button>
+</div>
+<div class="row p-3">
+    <div class="col text-center">
+        <div class="multi-collapse collapse" id="sponsor-wx" style="">
+            <div class="p-1 text-success">微信</div>
+            <img class="w-75" src="{% static 'blog/img/reward_wx.png' %}">
+        </div>
+    </div>
+    <div class="col text-center">
+        <div class="multi-collapse collapse" id="sponsor-zfb" style="">
             <div class="p-1 text-primary">支付宝</div>
             <img class="w-75" src="{% static 'blog/img/reward_zfb.png' %}">
         </div>
